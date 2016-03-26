@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic|Fira+Mono:400,700);
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  font-family: 'Fira Sans', Tahoma, sans-serif; }
+
+em {
+  font-style: italic; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold; }
+
+.subtitle {
+  font-weight: 300; }
+
+h1 {
+  font-size: 4rem; }
+
+h2 {
+  font-size: 2.66667rem;
+  margin-bottom: 1em; }
+
+h3 {
+  font-size: 2.22222rem;
+  font-weight: 300;
+  line-height: 2.66667rem; }
+
+p {
+  font-size: 1.5rem;
+  margin: 0.5em 0 1em 0;
+  line-height: 1.3; }
+
+a {
+  color: #666;
+  text-decoration: none; }
+  a:hover {
+    color: tomato; }
+
+.follow li {
+  font-size: 1.7rem;
+  padding-right: 1em; }
+  .follow li:last-child {
+    padding-right: 0; }
+
+.fa-twitter {
+  color: #55acee; }
+
+.fa-instagram {
+  color: #125688; }
+
+.wrapper {
+  margin: 10% auto 0 auto;
+  max-width: 720px;
+  padding: 7%; }
+
+header.big h1,
+header.big h2 {
+  text-align: center; }
+
+header.minimal #me {
+  float: left;
+  width: 5.5em; }
+header.minimal h1,
+header.minimal h2 {
+  text-align: right; }
+header.minimal h1 {
+  font-size: 2.85714rem; }
+header.minimal h2 {
+  font-size: 1.81818rem; }
+
+#me {
+  width: 10em;
+  margin: 0 auto 2em auto;
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 50%; }
+
+.blog-list ul li {
+  margin-bottom: 3em; }
+.blog-list .fa-tag {
+  color: #ccc; }
+.blog-list p {
+  color: #999; }
+
+section {
+  clear: both;
+  margin: 4em 0; }
+
+a.nav-back {
+  font-size: 1.5rem;
+  margin-bottom: 2em; }
+
+section.follow ul li {
+  display: inline-block; }
